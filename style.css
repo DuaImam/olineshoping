@@ -1,0 +1,144 @@
+body {
+	font-family: Arial;
+	color:#9FC;
+	font-size: 0.9em;
+	
+}
+
+#shopping-cart {
+	margin: 40px;
+	
+}
+
+#product-grid {
+	margin: 40px;
+	background: #CCC;
+}
+
+#shopping-cart table {
+	width: 100%;
+	background-color: #999;
+}
+
+#shopping-cart table td {
+	background-color: #333;
+}
+
+.txt-heading{
+	
+	color: #FFF;
+	border-bottom: 1px solid #E0E0E0;
+	overflow: auto;
+	font-size:24px;
+	text-align:center;
+}
+
+#btnEmpty {
+	background-color: #ffffff;
+	border: #d00000 1px solid;
+	padding: 5px 10px;
+	color: #d00000;
+	float: right;
+	text-decoration: none;
+	border-radius: 3px;
+	margin: 10px 0px;
+}
+
+.btnAddAction {
+    padding: 10px 20px;
+    margin-left: 100px;
+	margin-top: 100px;
+    background-color: #666;
+    border: #E0E0E0 1px solid;
+    color: #FFF;
+    float: right;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+	
+}
+
+#product-grid .txt-heading {
+	margin-bottom: 80px;
+	background-color: #333;
+}
+
+.product-item {
+	float: left;
+	background: #CCC;
+	margin: 30px 30px 150px 80px;
+	border: #E0E0E0 1px solid;
+	border-radius: 100px;
+}
+
+.product-image {
+	height: 225px;
+	width: 225px;
+	background-color: #FFF;
+	border-radius: 300px;
+	margin:40;
+	
+}
+
+.clear-float {
+	clear: both;
+}
+
+.demo-input-box {
+	border-radius: 2px;
+	border: #CCC 1px solid;
+	padding: 2px 1px;
+	
+}
+
+.tbl-cart {
+	font-size: 15px;
+	color:  #FFF;
+}
+
+.tbl-cart th {
+	font-weight: normal;
+}
+
+.product-title {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.product-price {
+	float:left;
+	text-align: center;
+	
+}
+
+.cart-action {
+	float: right;
+}
+
+.product-quantity {
+    padding: 5px 50px;
+    border-radius: 300px;
+    border:  1px solid;
+		text-align: center;
+		
+}
+
+.product-tile-footer {
+    padding: 15px 15px 0px 15px;
+    overflow: auto;
+}
+
+.cart-item-image {
+	width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    border: #E0E0E0 1px solid;
+    padding: 5px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.no-records {
+	text-align: center;
+	clear: both;
+	margin: 38px 0px;
+}
